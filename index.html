@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#">Geovani Dos Santos Vargas</a>
+            <div class="navbarsection">
+                <a href="#inicio">Inicio</a>
+                <a href="#contato">Contato</a>
+                <a href="#inscrever-se">Inscrever-se</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="inicio">
+        <div class="navcep">
+            <h1>Buscador de CEP</h1>
+            <input type="text" id="cep" placeholder="Digite o CEP">
+            <button onclick="buscar()">Buscar</button>
+            <div class="informacoes">
+                <h3>CEP:</h3>
+                <p id="cepp">...</p>
+                <h3>Logradouro:</h3>
+                <p id="logradouro">...</p>
+                <h3>Complemento:</h3>
+                <p id="complemento">...</p>
+                <h3>Bairro:</h3>
+                <p id="bairro">...</p>
+                <h3>Localidade:</h3>
+                <p id="localidade">...</p>
+                <h3>UF:</h3>
+                <p id="uf">...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer id="contato">
+        Geovani Dos Santos Vargas
+        <a href="https://github.com/Manizada" target="_blank">GitHub: Manizada</a>
+        <a href="https://www.linkedin.com/in/geovani-dos-santos-vargas-0a29b4304/" target="_blank">Linkedin</a>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: fixed url(./assets/white-cubes-3d-background.jpg) no-repeat center / cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+}
+header .navbar {
+    display: flex;
+    gap: 15px;
+    width: 80%;
+    justify-content: space-between;
+    padding: 16px;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+header .navbarsection {
+    display: flex;
+    gap: 20px;
+}
+
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+#inicio .navcep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 60%;
+}
+
+#inicio .navcep input {
+    border-radius: 25px;
+    border: transparent;
+    box-shadow: 0 2px 5px;
+    height: 25px;
+    text-align: center;
+    outline: none;
+}
+
+#inicio .navcep input:hover {
+    background-color: aliceblue;
+}
+
+#inicio .navcep button {
+    width: 75px;
+    height: 35px;
+    border-radius: 25px;
+    border: transparent;
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+#inicio .navcep button:hover {
+    background-color: #121212;
+}
+
+#inicio .navcep .informacoes {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: sticky;
+    margin-top: 25%;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.75);
+    height: 200px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
